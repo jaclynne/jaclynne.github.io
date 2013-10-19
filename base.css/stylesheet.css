@@ -1,14 +1,14 @@
 /* Header Rules*/
 
 header h1 { 
-    color: #008a76;
+    color: #000;
     font-size: 35px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-weight:500;
         }
 
 header a:link{
-    text-decoration:none;
+       text-decoration:none;
 }
 
 header a:visited {
@@ -17,23 +17,25 @@ header a:visited {
    
 /* Navigation Rules */
 nav {
-    font-size: 15px;
+    font-size: 19px;
     font-family:"Trebuchet MS", Helvetica, sans-serif;
     background-color: #008a76;
     height: 48px;
+    text-align: center;
         }
 
 nav a{
     margin: 15px;
-        }
+            }
 
 nav a:link {
     color: #fff;
-    text-decoration:none
+    text-decoration:none;
     }
 
 nav a:hover{
     text-decoration: underline;
+    font-weight:800;
 }
 
 nav a:visited {
@@ -42,17 +44,38 @@ nav a:visited {
 
 /* Article Rules*/
 
+/*body  {
+    background-color: #54FF9F;      
+}*/
+
 h1{ 
     color: #008a76;
     font-size: 30px;
   }
 
+h2 {
+    Color: #008a76;
+    text-decoration:underline;
+    }
+
 p {
     font-size: 16px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     line-height: 24px;
-    
-  }
+    }
+
+ul {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 14px;
+    }
+
+img { 
+    margin-top: 30px;
+    display:block;
+    margin-left:auto;
+    margin-right: auto
+
+    }
 
 /*Footer Rules*/
 
@@ -62,19 +85,22 @@ footer {
     color: #fff;
     font-size: 15px;
     font-family:"Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
        }
 
 footer a{
-     margin: 15px;
-}
+    margin: 15px;
+    font-size: 19px;
+    }
 
 footer a:link {
     color: #fff;
     text-decoration:none
-}
+    }
 
 footer a:hover {
     text-decoration: underline;
+    font-weight:800;
 }
 
 footer a:visited {
